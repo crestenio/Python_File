@@ -54,14 +54,14 @@ def hangman():
     global play_game
     limit = 5
 
-    start_time = int(time.time())
-    while True:
-        current_time = int(time.time())
-        time_left = 30 - (current_time - start_time)
-        if current_time - start_time >= 30:
-            print("You run out of time! \n\n GAME OVER!")
-            break
-        print(f" Timer: {time_left} seconds")
+  #  start_time = int(time.time())
+   # while True:
+   #     current_time = int(time.time())
+   #     time_left = 30 - (current_time - start_time)
+   #     if current_time - start_time >= 30:
+   #         print("You run out of time! \n\n GAME OVER!")
+    #        break
+    #    print(f" Timer: {time_left} seconds")
 
     guess = input("This is the Hangman Word: " +
                   display + " You have 30 seconds to guess a letter:\n  ")
